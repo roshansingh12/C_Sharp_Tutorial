@@ -1,0 +1,90 @@
+﻿Advanced Language Features:
+
+Generics
+Delegates and Events
+Lambda Expressions
+Extension Methods
+Nullable Types
+Asynchronous Programming (async/await)
+Attributes
+Indexers
+Reflection
+Object-Oriented Programming (OOP):
+
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Composition vs. Inheritance
+Design Patterns (Factory, Singleton, Observer, etc.)
+Collections and Data Structures:
+
+Arrays
+Lists
+Dictionaries
+Queues and Stacks
+Sets
+Linked Lists
+Trees
+Graphs
+File I/O and Serialization:
+
+Reading and Writing Files
+Streams
+XML and JSON Serialization
+Binary Serialization
+LINQ (Language Integrated Query):
+
+Query Operators
+LINQ to Objects
+LINQ to XML
+LINQ to SQL
+LINQ to Entities
+
+Multithreading and Parallel Programming:
+
+Threads and Thread Pool
+Synchronization (Locks, Mutexes, Semaphores)
+Task Parallel Library (TPL)
+Parallel LINQ (PLINQ)
+Asynchronous Programming Patterns
+
+Memory Management:
+
+Garbage Collection
+IDisposable Interface
+Finalizers
+
+Unit Testing:
+
+NUnit
+MSTest
+xUnit.net
+Test-Driven Development (TDD)
+ASP.NET and Web Development:
+
+ASP.NET Core MVC
+Web APIs
+Razor Pages
+Entity Framework (EF) Core
+Authentication and Authorization
+WebSockets and SignalR
+Desktop Development:
+
+Windows Forms
+WPF (Windows Presentation Foundation)
+UWP (Universal Windows Platform)
+Game Development:
+
+Unity3D
+MonoGame
+Game Engines and Frameworks
+Other Advanced Topics:
+
+Dependency Injection
+Aspect-Oriented Programming (AOP)
+Design Patterns
+Performance Optimization
+Code Contracts
+Code Analysis and Code Metrics
+

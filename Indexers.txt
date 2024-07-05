@@ -1,0 +1,50 @@
+﻿including Indexers inside our class allow us to access or update its properties by using
+integer or string indexes.
+
+public class Student{
+		public int id{get;set;}
+		public string name{get;set;}
+		public Student(int id,string name){
+				this.id=id;
+				this.name=name;
+		}
+
+		//Including Indexer
+		public object this[int i]
+		{
+			get{
+				if(i==0){reutrn id;}
+				else{return name;}
+			}
+			set{
+				if(i==0){id=Convert.ToInt32(value);}
+				else{name = value}
+			}
+		}
+
+		//class can have multiple indexers
+		//string
+		public object this[string s]
+		{
+			get{
+				if(s=="id"){return id;}
+				else{reutrn name;}
+			}
+			set{
+				if(s=="id"){id=Convert.toInt32(Value);}
+				else{name=Value;}
+			}
+		}
+}
+
+public class Program{
+	public static void Main(string[] args){
+		Student std = new Student(1,"roshan");
+		std.id=3;
+		std[0]=3;
+		std["id"]=3;
+		Console.WriteLine(std.name);
+		Console.WriteLine(std[1]);
+		Console.WriteLine(std["name"]);
+	}
+}

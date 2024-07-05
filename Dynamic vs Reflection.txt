@@ -1,0 +1,6 @@
+﻿using Dynamic is very simple, less code, understandable code as comparision to reflection.
+Inspact Metadata of class / Namespace : Reflection can inspect the metadata but dynamic cann't
+Invoking public members : public methods can be invoked using both Reflection and Dynamic.
+						  Dynamic is recommended to use because of simple and less code.
+Invoking private members : Reflection can only invoke private members.
+Caching : for caching use Dynamic not reflection.
