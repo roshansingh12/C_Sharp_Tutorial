@@ -99,4 +99,5 @@ namespace C_sharp_tutorial.Sync_Async_Await
             Console.WriteLine("Both tasks completed");
         }*/
     }
+    
 }
